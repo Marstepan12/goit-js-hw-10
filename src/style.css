@@ -1,0 +1,35 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.loader {
+    display: none;
+    margin-top: 20px;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
+.breed-select-container {
+    margin-top: 20px;
+}
+
+.cat-info {
+    display: none;
+    margin-top: 20px;
+}
+
+#cat-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#cat-details {
+    margin-top: 10px;
+    text-align: left;
+}

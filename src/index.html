@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homework 10</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cat Breed Search</h1>
+    <div class="loader"></div>
+    <div class="error">Oops! Something went wrong. Please try again later.</div>
+    <div class="breed-select-container">
+      <label for="breed-select">Select a breed:</label>
+      <select id="breed-select"></select>
+    </div>
+    <div class="cat-info">
+      <img id="cat-image"  alt="Cat Image" />
+      <div id="cat-details">
+        <h2 id="breed-name"></h2>
+        <p id="breed-description"></p>
+        <p id="breed-temperament"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="cat-api.js" type="module"></script>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
